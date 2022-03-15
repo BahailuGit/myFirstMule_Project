@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="2dae957e-1dae-42db-b731-b9d6b067d99e" >
+		<http:listener-connection host="0.0.0.0" port="${http.port}" />
+	</http:listener-config>
+	<configuration-properties doc:name="Configuration properties" doc:id="946e0a87-3aa9-46bc-a4a0-a3c0b6b7e9e3" file="dev.yaml" />
+	<flow name="mavin-deployment1Flow" doc:id="b80775ea-4b32-4ef5-a141-7bd752c73eac" >
+		<http:listener doc:name="Listener" doc:id="7a8b1cde-eb5e-4669-8127-7266b6d59d1c" config-ref="HTTP_Listener_config" path="/test"/>
+		<logger level="INFO" doc:name="Logger" doc:id="c8a530d8-133a-41e6-a656-35c035ef48bf" message="Deployment Using Mavinplugins"/>
+		<ee:transform doc:name="Transform Message" doc:id="567f6588-d2a7-4cad-8b5c-cdfdde7849d3" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+	"message":"Deployment using mavinplugins, App Successfully Deployed"
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+	</flow>
+</mule>
