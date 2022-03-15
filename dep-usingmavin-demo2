@@ -1,0 +1,175 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.mycompany:deploy-mavinplugin-demo >----------------
+[INFO] Building deploy-mavinplugin-demo 1.0.0-SNAPSHOT
+[INFO] --------------------------[ mule-application ]--------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean-1) @ deploy-mavinplugin-demo ---
+[INFO] Deleting C:\Apps\Studio-WS\deploy-mavinplugin-demo\target
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:clean (default-clean) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:validate (default-validate) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:initialize (default-initialize) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:generate-sources (default-generate-sources) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:process-sources (default-process-sources) @ deploy-mavinplugin-demo ---
+[INFO] About to fetch required dependencies for artifact: com.mycompany:deploy-mavinplugin-demo:pom:1.0.0-SNAPSHOT. This may take a while...
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ deploy-mavinplugin-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:process-resources (default-process-resources) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ deploy-mavinplugin-demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:compile (default-compile) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:process-classes (default-process-classes) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:generate-test-sources (default-generate-test-sources) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ deploy-mavinplugin-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:generate-test-resources (default-generate-test-resources) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ deploy-mavinplugin-demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:test-compile (default-test-compile) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:package (default-package) @ deploy-mavinplugin-demo ---
+[INFO] Building zip: C:\Apps\Studio-WS\deploy-mavinplugin-demo\target\deploy-mavinplugin-demo-1.0.0-SNAPSHOT-mule-application.jar
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:validate (default-validate) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:initialize (default-initialize) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:generate-sources (default-generate-sources) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:process-sources (default-process-sources) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ deploy-mavinplugin-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:process-resources (default-process-resources) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ deploy-mavinplugin-demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:compile (default-compile) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:process-classes (default-process-classes) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:generate-test-sources (default-generate-test-sources) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ deploy-mavinplugin-demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:generate-test-resources (default-generate-test-resources) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ deploy-mavinplugin-demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:test-compile (default-test-compile) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ deploy-mavinplugin-demo ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:package (default-package) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:verify (default-verify) @ deploy-mavinplugin-demo ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ deploy-mavinplugin-demo ---
+[INFO] No primary artifact to install, installing attached artifacts instead.
+[INFO] Installing C:\Apps\Studio-WS\deploy-mavinplugin-demo\pom.xml to C:\Users\Bahailu\.m2\repository\com\mycompany\deploy-mavinplugin-demo\1.0.0-SNAPSHOT\deploy-mavinplugin-demo-1.0.0-SNAPSHOT.pom
+[INFO] Installing C:\Apps\Studio-WS\deploy-mavinplugin-demo\target\deploy-mavinplugin-demo-1.0.0-SNAPSHOT-mule-application.jar to C:\Users\Bahailu\.m2\repository\com\mycompany\deploy-mavinplugin-demo\1.0.0-SNAPSHOT\deploy-mavinplugin-demo-1.0.0-SNAPSHOT-mule-application.jar
+[INFO] 
+[INFO] --- mule-maven-plugin:3.5.2:deploy (default-deploy) @ deploy-mavinplugin-demo ---
+[INFO] Deploying artifact deploy-mavinplugin-demo
+[INFO] Creating application: deploy-mavinplugin-demo
+[ERROR] Failed to deploy deploy-mavinplugin-demo: Failed to deploy application deploy-mavinplugin-demo
+org.mule.tools.client.core.exception.DeploymentException: Failed to deploy application deploy-mavinplugin-demo
+    at org.mule.tools.deployment.cloudhub.CloudHubApplicationDeployer.deploy (CloudHubApplicationDeployer.java:46)
+    at org.mule.tools.deployment.DefaultDeployer.deploy (DefaultDeployer.java:53)
+    at org.mule.tools.maven.mojo.deploy.DeployMojo.doExecute (DeployMojo.java:46)
+    at org.mule.tools.maven.mojo.deploy.AbstractMuleDeployerMojo.execute (AbstractMuleDeployerMojo.java:94)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.mule.tools.client.core.exception.ClientException: 400 Bad Request: {"status":400,"message":"4.4.0-20211026 is not a valid value for muleVersion.version."}
+    at org.mule.tools.client.core.AbstractClient.checkResponseStatus (AbstractClient.java:192)
+    at org.mule.tools.client.cloudhub.CloudHubClient.createApplication (CloudHubClient.java:122)
+    at org.mule.tools.deployment.cloudhub.CloudHubArtifactDeployer.createApplication (CloudHubArtifactDeployer.java:147)
+    at org.mule.tools.deployment.cloudhub.CloudHubArtifactDeployer.createOrUpdateApplication (CloudHubArtifactDeployer.java:126)
+    at org.mule.tools.deployment.cloudhub.CloudHubArtifactDeployer.deployApplication (CloudHubArtifactDeployer.java:87)
+    at org.mule.tools.deployment.cloudhub.CloudHubApplicationDeployer.deploy (CloudHubApplicationDeployer.java:44)
+    at org.mule.tools.deployment.DefaultDeployer.deploy (DefaultDeployer.java:53)
+    at org.mule.tools.maven.mojo.deploy.DeployMojo.doExecute (DeployMojo.java:46)
+    at org.mule.tools.maven.mojo.deploy.AbstractMuleDeployerMojo.execute (AbstractMuleDeployerMojo.java:94)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:972)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:293)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:196)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.622 s
+[INFO] Finished at: 2022-03-15T15:26:08-04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.mule.tools.maven:mule-maven-plugin:3.5.2:deploy (default-deploy) on project deploy-mavinplugin-demo: Failed to deploy [C:\Apps\Studio-WS\deploy-mavinplugin-demo\target\deploy-mavinplugin-demo-1.0.0-SNAPSHOT-mule-application.jar] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
